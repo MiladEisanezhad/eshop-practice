@@ -1,0 +1,36 @@
+.errorlist {
+    padding-right: 0 !important;
+}
+
+.errorlist li {
+    color: red;
+}
+
+ul {
+    padding-right: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+label {
+    color: #FFFFFF;
+}
+#form{
+    border-radius: 13px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 70%;
+    height: 25%;
+}
+#white-h4 {
+    color: #FFFFFF;
+}
+.fa-calendar {
+    color: #0d0d0d;
+    background: #2aee00;
+}
+p {
+    color: #FFFFFF;
+}

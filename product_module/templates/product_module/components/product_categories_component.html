@@ -1,0 +1,15 @@
+<h2 class="title text-center" >دسته بندی محصولات</h2>
+<div class="brands-name">
+    <ul class="nav nav-pills nav-stacked">
+        {% for category in categories %}
+            {#        <div class="panel panel-default">#}
+            {#            <div class="panel-heading">#}
+            <li><a href="{% url 'product-categories-list' cat=category.url_title %}">{{ category.title }}</a></li>
+            {#                <a#}
+            {#                        href="{% url 'product-categories-list' cat=category.url_title %}">{{ category.title }}#}
+            {#                </a>#}
+            {#            </div>#}
+            {#        </div>#}
+        {% endfor %}
+    </ul><!--category-productsr-->
+</div><!--/category-productsr-->
